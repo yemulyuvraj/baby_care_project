@@ -1,0 +1,51 @@
+.immunization-chart {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  color: #555;
+}
+.form-square-container {
+  width: 20%; /* Make the width and height equal for a square */
+  height: 20%;
+  margin: 20px auto; /* Center the square horizontally */
+  border: 2px solid #007bff; /* Add a border */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,65 @@
+.order-summary-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .order-summary-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-image: url("C:\Users\user5\Downloads\h1.webp");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px); /* Blur the background for better focus on content */
+    z-index: -1; /* Ensure the background is behind the content */
+  }
+  
+  .order-summary-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .order-summary-item {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .order-summary-item strong {
+    color: #333;
+  }
+  
+  .order-summary-item:nth-child(even) {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .order-summary-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .order-summary-header {
+      font-size: 20px;
+    }
+  
+    .order-summary-item {
+      font-size: 14px;
+    }
+  }
+  

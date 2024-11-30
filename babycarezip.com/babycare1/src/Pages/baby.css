@@ -1,0 +1,46 @@
+.text {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9; /* Adds a light background to the text section */
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  color: #333; /* Darker color for better contrast */
+}
+
+.baby-links {
+  margin-top: 30px;
+  background-color: #fff8f0; /* Softer background for the explore section */
+  padding: 20px;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+  
+  h2 {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+  .link-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .link-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #e55341;
+    }
+  }
+}

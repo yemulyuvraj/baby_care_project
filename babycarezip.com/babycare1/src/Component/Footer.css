@@ -1,0 +1,37 @@
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* Default text color in white for readability */
+    padding: 20px;
+    border-top: 1px solid #333; /* Darker border for subtle separation */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between sections */
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures sections stack properly on smaller screens */
+    margin: 10px;
+  }
+  
+  .footer-section .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: red; /* Set <h2> tags to red */
+  }
+  
+  .footer-subcontainer {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ddd; /* Slightly lighter text color inside subcontainers */
+    padding: 10px;
+    border: 1px solid #555; /* Subtle border */
+    border-radius: 5px; /* Smooth edges */
+    background-color: #222; /* Dark gray background for contrast */
+  }
+  

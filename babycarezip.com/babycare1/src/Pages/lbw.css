@@ -1,0 +1,12 @@
+.form-square-container {
+    width: 80%; /* Make the width and height equal for a square */
+    height: 70%;
+    margin: 20px auto; /* Center the square horizontally */
+    border: 2px solid #007bff; /* Add a border */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }

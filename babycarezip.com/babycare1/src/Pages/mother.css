@@ -1,0 +1,65 @@
+.mother-page {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.mother-intro {
+  margin-bottom: 20px;
+}
+
+.mother-intro h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.mother-intro p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.mother-image {
+  margin-bottom: 30px;
+}
+
+.mother-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mother-links {
+  margin-top: 30px;
+  background-color: #fff8f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mother-links h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.link-btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.link-btn:hover {
+  background-color: #e55341;
+}
